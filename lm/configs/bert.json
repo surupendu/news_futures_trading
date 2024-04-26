@@ -1,0 +1,20 @@
+{
+    "model_name": "ppo",
+    "language_model": "bert",
+    "path": "data_splits/",
+    "save_file_path": "saved_csvs/",
+    "max_num_lots": 3,
+    "lot_size": 25,
+    "action_dim": 1,
+    "policy": "MultiInputPolicy",
+    "batch_size": 128,
+    "learning_rate": 0.0002,
+    "ent_coef": 0.02,
+    "n_epochs": 6,
+    "n_steps": 2000,
+    "global_num_epochs": 1,
+    "num_lots_held": 0,
+    "margin_pct": 0.15,
+    "window_size": 5,
+    "num_news_articles": 10 
+}
